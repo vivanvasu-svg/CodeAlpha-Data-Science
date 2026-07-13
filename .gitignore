@@ -1,0 +1,17 @@
+# Ignore python virtual environments in any subdirectory
+**/venv/
+venv/
+
+# Ignore python caches and compiled files in any subdirectory
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints in any subdirectory
+**/.ipynb_checkpoints/
+
+# Ignore OS metadata files
+**/.DS_Store
+.DS_Store
+*.log
